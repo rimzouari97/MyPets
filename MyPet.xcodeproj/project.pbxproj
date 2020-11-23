@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2007C189256B2D9800E02D06 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007C188256B2D9800E02D06 /* Profile.swift */; };
+		203C364C256B12C200120E54 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203C364B256B12C200120E54 /* Home.swift */; };
 		20F94978256AFEA8007BA630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F94977256AFEA8007BA630 /* AppDelegate.swift */; };
 		20F9497A256AFEA8007BA630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F94979256AFEA8007BA630 /* SceneDelegate.swift */; };
 		20F9497C256AFEA8007BA630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9497B256AFEA8007BA630 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		20F94987256AFEA8007BA630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F94985256AFEA8007BA630 /* LaunchScreen.storyboard */; };
 		20F94992256AFEA9007BA630 /* MyPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F94991256AFEA9007BA630 /* MyPetTests.swift */; };
 		20F9499D256AFEA9007BA630 /* MyPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9499C256AFEA9007BA630 /* MyPetUITests.swift */; };
+		20F949AE256B10E9007BA630 /* Authenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F949AD256B10E9007BA630 /* Authenticate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2007C188256B2D9800E02D06 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		203C364B256B12C200120E54 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		20F94974256AFEA8007BA630 /* MyPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F94977256AFEA8007BA630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F94979256AFEA8007BA630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		20F94998256AFEA9007BA630 /* MyPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F9499C256AFEA9007BA630 /* MyPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPetUITests.swift; sourceTree = "<group>"; };
 		20F9499E256AFEA9007BA630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F949AD256B10E9007BA630 /* Authenticate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +84,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2007C187256B2D5800E02D06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2007C188256B2D9800E02D06 /* Profile.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		20F9496B256AFEA8007BA630 = {
 			isa = PBXGroup;
 			children = (
+				2007C187256B2D5800E02D06 /* Controller */,
 				20F94976256AFEA8007BA630 /* MyPet */,
 				20F94990256AFEA9007BA630 /* MyPetTests */,
 				20F9499B256AFEA9007BA630 /* MyPetUITests */,
@@ -109,6 +124,8 @@
 				20F94985256AFEA8007BA630 /* LaunchScreen.storyboard */,
 				20F94988256AFEA9007BA630 /* Info.plist */,
 				20F94980256AFEA8007BA630 /* MyPet.xcdatamodeld */,
+				20F949AD256B10E9007BA630 /* Authenticate.swift */,
+				203C364B256B12C200120E54 /* Home.swift */,
 			);
 			path = MyPet;
 			sourceTree = "<group>";
@@ -264,6 +281,9 @@
 				20F9497C256AFEA8007BA630 /* ViewController.swift in Sources */,
 				20F94982256AFEA8007BA630 /* MyPet.xcdatamodeld in Sources */,
 				20F94978256AFEA8007BA630 /* AppDelegate.swift in Sources */,
+				2007C189256B2D9800E02D06 /* Profile.swift in Sources */,
+				20F949AE256B10E9007BA630 /* Authenticate.swift in Sources */,
+				203C364C256B12C200120E54 /* Home.swift in Sources */,
 				20F9497A256AFEA8007BA630 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
